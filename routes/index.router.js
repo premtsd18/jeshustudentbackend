@@ -13,5 +13,6 @@ router.post('/postStudent',ctrlStudent.poststudent)
 router.get('/getstudents',ctrlStudent.getstudents)
 router.put('/deletestudent',ctrlStudent.deletestudent)
 router.get('/getstudentdata/:id',ctrlStudent.getstudentdata)
+router.put('/putStudent',ctrlStudent.putStudent)
 module.exports = router;    
 
