@@ -1,7 +1,7 @@
 const passport = require('passport');
 const localStrategy = require('passport-local').Strategy;
 const mongoose = require('mongoose');
-
+require('dotenv').config()
 var User = mongoose.model('User');
 
 passport.use(

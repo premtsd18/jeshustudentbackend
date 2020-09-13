@@ -10,7 +10,7 @@ const cors = require('cors');
 const passport = require('passport');
 
 const rtsIndex = require('./routes/index.router');
-
+require('dotenv').config()
 
 var app = express();
 
